@@ -145,7 +145,7 @@ var Romulan = new SentientBeing('Romulan');
 // assertions for each one (the assertions are how you
 // will test your code)
 //*********************************************************
-var test = ['b', 'a', 'c'];
+var test = ['bx', 'ac', 'cf'];
 
 function lastLetterSort(stringArray) {
   function byLastLetter(a, b) {
@@ -159,8 +159,6 @@ function lastLetterSort(stringArray) {
   }
   stringArray.sort(byLastLetter);
 }
-
-console.log(lastLetterSort(test));
 
 function sumArray(numberArray) {
   var sum = 0;
